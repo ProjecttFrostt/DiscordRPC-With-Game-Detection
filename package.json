@@ -1,0 +1,16 @@
+{
+  "name": "discordrpc",
+  "version": "1.0.0",
+  "description": "projectfrost custom discord rpc| projectfrost.net",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./src/app.js"
+  },
+  "author": "ProjectFrost",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "chalk": "^4.1.2",
+    "discord-rpc": "^4.0.1"
+  }
+}

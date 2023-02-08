@@ -17,25 +17,21 @@ What U First need to grab its the exe name the game is running from you can easi
 
 ### Game "Watch List" with buttons
 ```
-let activity = {
-  state: 'https//:projectfrost.net',
-  details: 'Idle',
-  largeImageKey: 'PASTE CUSTOM IMAGE HERE',
-  startTimestamp: new Date(),
-  largeImageText: 'SLOGAN OR WHATEVER U WANT',
-  smallImageKey: 'https://i.imgur.com/qHfpGxL.gif',
-  smallImageText: 'Finding Game',
-  buttons: [
-    {
-      label: 'Made By Project Frost',
-      url: 'https://projectfrost.net/'
+    'VRChat.exe': {
+      logo: 'https://i.imgur.com/Rqh9JVH.png',
+      text: 'VRChat <3 Mods',
+      details: 'Playing VRChat',
+      buttons: [
+        {
+          label: 'MADE BY PROJECT FROST',
+          url: 'https://projectfrost.net/'
+        },
+        {
+          label: 'Tupper',
+          url: 'https://www.youtube.com/watch?v=bSnAXziBdyY'
+        }
+      ]
     },
-    {
-      label: 'COOL TEXT HERE',
-      url: 'COOL LINK HERE'
-    }
-  ]
-};
 ```
 
 ### Game "Watch List" Without Buttons

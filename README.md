@@ -1,4 +1,4 @@
-# DiscordRPC-Withe-Game-Detection
+# DiscordRPC-With-Game-Detection
 
 ## Setup
 
